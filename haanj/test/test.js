@@ -19,4 +19,4 @@ describe('tests greet function processes arguments correctly', function() {
       expect(result).to.equal('hello ' + arg);
     });
   });
-})
+});
