@@ -14,6 +14,6 @@ function getInput() {
   });
 }
 
-
+getInput();
 
 module.exports.greet = greet;
