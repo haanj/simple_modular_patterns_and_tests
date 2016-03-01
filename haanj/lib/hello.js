@@ -9,10 +9,11 @@ function getInput() {
   prompt.start();
   prompt.get(['name'], function(err, result) {
     console.log('name received');
-    console.log(greet(result.name));
+    var greeting = greet(result.name);
+    console.log(greeting);
   });
 }
 
-getInput();
 
-module.exports = greet;
+
+module.exports.greet = greet;
