@@ -5,6 +5,7 @@ var lint = require('gulp-eslint');
 var mocha = require('gulp-mocha');
 
 var paths = ['*.js', 'lib/hello.js', 'test/*js'];
+var tests = ['test/*js'];
 
 gulp.task('lint', function() {
   return gulp.src(paths)
@@ -13,7 +14,7 @@ gulp.task('lint', function() {
 });
 
 gulp.task('mocha', function() {
-  return gulp.src(__dirname + '/test/test.js', {read: false})
+  return gulp.src(tests)
     .pipe(mocha({reporter: 'nyan'}));
 });
 

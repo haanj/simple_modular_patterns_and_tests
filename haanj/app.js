@@ -9,3 +9,5 @@ var helloName = function() {
 };
 
 helloName();
+
+module.exports = helloName;
