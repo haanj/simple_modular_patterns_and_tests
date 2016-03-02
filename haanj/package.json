@@ -1,16 +1,18 @@
 {
   "name": "haanj",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "##To Submit this Assignment   * fork this repository   * write all of your code in a folder containing your name   * push to your repository   * submit a pull request to this repository   * submit a link to your PR in canvas",
   "main": "hello.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "prompt": "^1.0.0",
-    "chai": "^3.5.0"
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

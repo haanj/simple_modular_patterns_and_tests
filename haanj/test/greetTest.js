@@ -13,7 +13,7 @@ describe('tests greet function', function() {
 
 describe('tests greet function processes arguments correctly', function() {
   it('greet(arg) should return "hello arg"', function() {
-    var args = ['Morty', 'Morty', 'Rick', 'Billy', 'Rusty']
+    var args = ['Morty', 'Morty', 'Rick', 'Billy', 'Rusty'];
     args.forEach(function(arg) {
       var result = hello.greet(arg);
       expect(result).to.equal('hello ' + arg);
