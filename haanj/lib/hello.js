@@ -2,7 +2,7 @@
 var prompt = require('prompt');
 
 function greet(name) {
-  return "hello " + name;
+  return 'hello ' + name;
 }
 
 function getInput() {
